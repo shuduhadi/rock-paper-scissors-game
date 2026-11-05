@@ -37,7 +37,7 @@ while play_again == 'yes':
     print(result)
     if result == 'You win!':
         player_score += 1
-    else:
+    elif result == 'You lose!':
         computer_score += 1
 
     print()
